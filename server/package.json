@@ -1,0 +1,24 @@
+{
+  "name": "exchange-rate-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start:prod": "NODE_ENV=production node src/index.js",
+    "start:dev": "nodemon",
+    "test": "jest",
+    "heroku:prod": "WEB_CONCURRENCY=4 npm run start:prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^22.0.4",
+    "nodemon": "^1.14.7",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "express": "^4.16.2",
+    "throng": "^4.0.0"
+  }
+}

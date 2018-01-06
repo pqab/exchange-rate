@@ -1,0 +1,19 @@
+{
+  "name": "exchange-rate",
+  "version": "1.0.0",
+  "description": "A service that gives the latest and historical exchange rate for the currency.",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pqab/exchange-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pqab/exchange-rate/issues"
+  },
+  "homepage": "https://github.com/pqab/exchange-rate#readme"
+}

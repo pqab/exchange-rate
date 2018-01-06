@@ -1,0 +1,19 @@
+{
+  "name": "exchange-rate-client",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "preinstall": "npm install -g serve",
+    "start:prod": "serve -s build",
+    "start:dev": "react-scripts start",
+    "heroku:prod": "WEB_CONCURRENCY=4 npm run start:prod",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

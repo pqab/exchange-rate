@@ -1,0 +1,23 @@
+.list {
+  list-style: none;
+  padding: 0;
+}
+.list li {
+  line-height: 2;
+}
+.list li:nth-child(odd) {
+  background: #ccc;
+}
+.list.click li:hover {
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.key {
+  display: inline-block;
+  font-weight: bold;
+  max-width: 150px;
+  padding-left: 15px;
+  width: 100%;
+}
