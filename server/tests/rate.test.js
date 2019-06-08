@@ -57,7 +57,7 @@ describe('Test /rate/historical', () => {
   });
 
   test('Expect return error in date of furture', () => {
-    return request(app).get(`${root}${path}/2018-12-31`).then(response => {
+    return request(app).get(`${root}${path}/2046-12-31`).then(response => {
       console.log(response.body);
         expect(response.statusCode).toBe(500);
         expect(response.body).toEqual({
